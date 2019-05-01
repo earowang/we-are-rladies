@@ -1,0 +1,5 @@
+^README\.Rmd$
+^\.DS_Store$
+^Makefile$
+^docs$
+^_pkgdown\.yml$
