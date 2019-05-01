@@ -1,0 +1,31 @@
+---
+title: "Presentation Ninja"
+subtitle: "⚔<br/>with xaringan"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["default", "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+class: inverse
+
+.pull-left[
+.animated.shake.infinite[
+![r-logo](https://www.r-project.org/logo/Rlogo.svg)
+]
+.animated.swing.infinite[
+![r-logo](https://www.r-project.org/logo/Rlogo.svg)
+]
+]
+.pull-right[
+.animated.rubberBand.infinite[
+![r-logo](https://www.r-project.org/logo/Rlogo.svg)
+]
+.animated.jello.infinite[
+![r-logo](https://www.r-project.org/logo/Rlogo.svg)
+]
+]

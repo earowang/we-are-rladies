@@ -1,0 +1,22 @@
+---
+title: "knitr tips: `read_chunk()`"
+output: html_document
+---
+
+```{r setup, include = FALSE}
+knitr::opts_knit$set(root.dir = here::here())
+```
+
+```{r external, include = FALSE}
+knitr::read_chunk("day03/ggforce.R")
+```
+
+## Accelerating ggplot2
+
+The `ggforce` package by Thomas Lin Pedersen aims at providing missing functionality to `ggplot2` through the extension system introduced with `ggplot2` v2.0.0.
+
+```{r facet-zoom, message = FALSE}
+```
+
+```{r geom-bezier, echo = FALSE}
+```
